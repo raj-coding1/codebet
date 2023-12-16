@@ -1,31 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex assignment</title>
+  <style>
+.main1{
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: blue;
+}
+.main2{
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  background-color: darkblue;
+  
+
+}
+.secon1{
+  height: 190px;
+  width: 80%;
+  /* border: 1px solid black; */
+/* margin-top: 90px;
+margin-right: auto;
+margin-left: auto; */
+margin-bottom: 90px;
+margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.secon2{
+  height: 180px;
+  width: 80%;
+  /* border: 1px solid black; */
+/* margin-top: 90px;
+margin-right: auto;
+margin-left: auto; */
+margin-bottom: 45px;
+margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: darkblue; */
+
+}
+h3{
+  margin-left: 150px;
+  margin-top: 50px;
+  color: white;
+}
+.secon3{
+  height: 70px;
+  width: 80%;
+  border: 1px solid black;
+  display: flex;
+  margin-top: 30px;
+  margin: auto;
+  justify-content: space-around;
+}
+.secon1>div{
+  /* padding: 10px;
+  padding-right: 5px; */
+ height: 170px;
+ width: 100px;
+  /* border: 1px solid black; */
+}
+.secon2>div{
+  /* padding: 10px;
+  padding-right: 5px; */
+ height: 170px;
+ width: 100px;
+  
+}
+img{
+  height: 20%%;
+  width: 80%;
+}
+p{
+  color: white;
+  /* margin-left: 20px; */
+  margin-left: 18px;
+  text-align: justify;
+  font-size: 16px;
+}
+.paytm{
+  background-color: white;
+  width: 100%;
+  height: 60px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.paytm>div{
+width: 180px;
+/* border: 1px solid black; */
+text-align: end;
+}
+button{
+  color: white;
+  background-color: blue;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+  </style>
 </head>
 <body>
+  <div class="paytm">
     <div>
-         <div>
-            <div>
-                <P>NAME</P>
-                <input type="text"/>
-            </div>
-          <div>
-            <p>EMAIL</p>
-            <input type="text" />
-          </div>
-          <div style="height: 100px; width: 200px; display: flex; flex-direction: column;">
-            <p>MOBILE</p>
-            <input type="number" />
-            <p>Enter a valid mobile</p>
+      <center>
+        <img src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo.svg" style="margin-top: 15px; width: 100%;"/>
+      </center>
+     
+    </div>
+    <div>
+      <h4>Paytm for Consumer</h4>
+    </div>
+    <div>
+      <h4>Paytm for Business</h4>
+    </div>
+    <div>
+      <h4>Investor Relations</h4>
+    </div>
+    <div style="width: 15px;">
+      <h4>Company</h4>
+    </div>
+    <div>
+      <h4>Carrer</h4>
+    </div>
+    <div>
+      <!-- <img src=""/> -->
+      <center>
+        <button>Sign in</button>
 
-          </div>
-            
+      </center>
+    </div>
 
-         </div>
-         <div></div>
+
+  </div>
+  <div class="main1">
+   
+    <h3>Recharge & Pay Bills on Paytm</h3>
+    <div class="secon1">
+<div class="thir1">
+  <center>
+    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733299/1626251017535.png"/>
+  </center>
+  <p>Recharge Prepaid Mobile</p>
+
+</div>
+<div class="thir2">
+  <center>
+    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733308/1626251043534.png"/>
+  </center>
+  <p>Pay Electricity Bills</p>
+</div>
+<div class="thir3">
+  <center>
+    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733311/1626251101045.png"/>
+
+  </center>
+  <p>Recharge DTH Connection</p>
+</div>
+<div class="thir4">
+  <center>
+    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png"/>
+
+  </center>
+  <p>Book Gas Cylinder</p>
+</div>
+<div class="thir5">
+  <center>
+    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/1269194/1672827522093.png"/>
+
+  </center>
+  <p>Pay Broadband & Landline Bills</p>
+</div>
+<div class="thir6">
+ <center>
+  <img src="https://assetscdn1.paytm.com/images/catalog/view_item/1269198/1672828917034.png"/>
+ </center>
+  <p>Pay Education Bill</p>
+</div>
+<div class="thir7">
+  <center>
+    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/757701/1626268580682.png"/>
+
+  </center>
+  <p>All Payment Services</p>
+</div>
 
 
 
@@ -35,5 +210,66 @@
 
 
     </div>
+  </div>
+  <div class="main2">
+    <h3>Book & Buy on Paytm</h3>
+
+    <div class="secon2">
+    <div>
+<center>
+  <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733295/1626259710574.png"/>
+</center>
+<p>Movie Tickets</p>
+
+    </div>
+    <div>
+      <center>
+        <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733296/1626259884425.png"/>
+      </center>
+      <p>Flight Tickets</p>
+      
+          </div>
+          <div>
+            <center>
+              <img src="https://assetscdn1.paytm.com/images/catalog/view_item/729996/1626260477699.png"/>
+            </center>
+            <p>Bus Tickets</p>
+            
+                </div>
+                <div>
+                  <center>
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/729997/1696910636390.png"/>
+                  </center>
+                  <p>Train Tickets</p>
+                  
+                      </div>
+                      <div>
+                        <center>
+                          <img src="https://assetscdn1.paytm.com/images/catalog/view_item/729998/1666185237748.png"/>
+                        </center>
+                        <p>But Insurance</p>
+                        
+                            </div>
+                            <div>
+                              <center>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/729999/1626259968563.png"/>
+                              </center>
+                              <p>International Flight</p>
+                              
+                                  </div>
+                                  <div>
+                                    <center>
+                                      <img src="https://assetscdn1.paytm.com/images/catalog/view_item/730001/1626450848003.png"/>
+                                    </center>
+                                    <p>Invest in stocks</p>
+                                    
+                                        </div>
+                                        
+
+
+
+
+    </div>
+  </div>
 </body>
 </html>
